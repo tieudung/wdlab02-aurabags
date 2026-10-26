@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Bags &amp; Packs | Đặt hàng mẫu</title>
+</head>
+<body bgcolor="#F4F7FB">
+  <header>
+    <table bgcolor="#1F3A52" border="0" cellpadding="15" cellspacing="0" width="100%">
+      <tr>
+        <td align="center">
+          <font color="#FFFFFF" size="7"><b>◆ AURA BAGS &amp; PACKS</b></font><br>
+          <font color="#FDE68A" size="4">CARRY SMART · LIVE STYLISH</font><br>
+          <font color="#E2E8F0" size="2">Cửa hàng Balo Laptop, Túi Tote &amp; Túi Du Lịch | HTML-ONLY E-COMMERCE</font>
+        </td>
+      </tr>
+    </table>
+    <table bgcolor="#D9E6F2" border="0" cellpadding="12" cellspacing="0" width="100%">
+      <tr>
+        <td align="center">
+          <nav aria-label="Điều hướng chính">
+            <a href="index.html">⌂ Trang chủ</a> &nbsp;|&nbsp;
+            <a href="index.html#san-pham">◈ Sản phẩm</a> &nbsp;|&nbsp;
+            <a href="chi-tiet.html">▤ Chi tiết</a> &nbsp;|&nbsp;
+            <a href="bang-gia.html">▦ Bảng tổng hợp</a> &nbsp;|&nbsp;
+            <a href="dat-hang.html">✉ Đặt hàng mẫu</a>
+          </nav>
+        </td>
+      </tr>
+    </table>
+  </header>
+  <main>
+    <section aria-labelledby="form-heading">
+      <table border="0" cellpadding="14" cellspacing="0" width="100%">
+        <tr>
+          <td>
+            <h1 id="form-heading">✉ BIỂU MẪU ĐẶT HÀNG TĨNH (STATIC ORDER FORM)</h1>
+            <p>Form sử dụng <code>action="xac-nhan.html"</code> và <code>method="get"</code> để minh họa cách trình duyệt đóng gói các cặp <code>name=value</code> lên thanh địa chỉ URL.</p>
+          </td>
+        </tr>
+      </table>
+
+      <form action="xac-nhan.html" method="get">
+        <table bgcolor="#FFFFFF" border="1" bordercolor="#94A3B8" cellpadding="16" cellspacing="0" width="100%">
+          <tr>
+            <td>
+              <fieldset>
+                <legend><strong>1. Thông tin người đặt hàng</strong></legend>
+                <p>
+                  <label for="ho-ten">Họ và tên khách hàng *</label><br>
+                  <input type="text" id="ho-ten" name="hoTen" placeholder="Ví dụ: Huỳnh Tiểu Dung" minlength="2" maxlength="60" required>
+                </p>
+                <p>
+                  <label for="email">Địa chỉ Email nhận thông báo *</label><br>
+                  <input type="email" id="email" name="email" placeholder="khachhang@example.com" required>
+                </p>
+                <p>
+                  <label for="so-dien-thoai">Số điện thoại liên hệ *</label><br>
+                  <input type="tel" id="so-dien-thoai" name="soDienThoai" placeholder="0901234567" required>
+                </p>
+              </fieldset>
+              <br>
+              <fieldset>
+                <legend><strong>2. Lựa chọn sản phẩm &amp; Tùy chọn</strong></legend>
+                <p>
+                  <label for="ma-san-pham">Chọn mẫu Balo / Túi xách *</label><br>
+                  <select id="ma-san-pham" name="maSanPham" required>
+              <option value="">-- Chọn mẫu Balo / Túi xách --</option>
+              <option value="BG01">BG01 - Balo Laptop Urban Pro 15.6 (720.000 đ)</option>
+              <option value="BG02">BG02 - Balo Công Sở SlimTech Navy (790.000 đ)</option>
+              <option value="BG03">BG03 - Balo Đa Năng Campus Olive (550.000 đ)</option>
+              <option value="BG04">BG04 - Balo Da Mềm Executive Brown (1.050.000 đ)</option>
+              <option value="BG05">BG05 - Túi Tote Canvas Minimal Beige (350.000 đ)</option>
+              <option value="BG06">BG06 - Túi Đeo Chéo Metro Crossbody (450.000 đ)</option>
+              <option value="BG07">BG07 - Túi Xách Công Sở Elegance Tote (840.000 đ)</option>
+              <option value="BG08">BG08 - Balo Du Lịch Trekker 35L (1.190.000 đ)</option>
+              <option value="BG09">BG09 - Túi Trống Thể Thao Gym Duffel (490.000 đ)</option>
+              <option value="BG10">BG10 - Balo Cabin Travel Fold 28L (970.000 đ)</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="phien-ban">Chọn phiên bản kích thước / ngăn đệm *</label><br>
+                  <select id="phien-ban" name="phienBan" required>
+                    <option value="">-- Chọn phiên bản --</option>
+                    <option value="Standard-14inch">Bản Tiêu Chuẩn (Ngăn Laptop 14 inch)</option>
+                    <option value="Pro-15.6inch">Bản Mở Rộng (Ngăn Laptop 15.6 inch)</option>
+                    <option value="Travel-Plus">Bản Du Lịch (Kèm túi bọc đi mưa)</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="so-luong">Số lượng đặt (1 – 5 sản phẩm) *</label><br>
+                  <input type="number" id="so-luong" name="soLuong" min="1" max="5" step="1" value="1" required>
+                </p>
+              </fieldset>
+              <br>
+              <fieldset>
+                <legend><strong>3. Hình thức nhận hàng &amp; Dịch vụ đi kèm</strong></legend>
+                <p><strong>Phương thức giao nhận *:</strong><br>
+                  <input type="radio" id="nhan-cua-hang" name="hinhThucNhan" value="tai-cua-hang" required>
+                  <label for="nhan-cua-hang">Nhận trực tiếp tại Showroom Aura Bags</label><br>
+                  <input type="radio" id="giao-tan-noi" name="hinhThucNhan" value="giao-tan-noi">
+                  <label for="giao-tan-noi">Giao hàng tận nơi (Chuyển phát tiêu chuẩn)</label>
+                </p>
+                <p><strong>Tùy chọn cộng thêm (không bắt buộc):</strong><br>
+                  <input type="checkbox" id="boc-qua" name="dichVuThem" value="goi-qua">
+                  <label for="boc-qua">Gói quà tặng kèm thiệp viết tay</label><br>
+                  <input type="checkbox" id="tui-chong-nuoc" name="dichVuThem" value="ao-mua-balo">
+                  <label for="tui-chong-nuoc">Thêm áo trùm đi mưa cho Balo</label>
+                </p>
+                <p>
+                  <label for="ghi-chu">Ghi chú đơn hàng</label><br>
+                  <textarea id="ghi-chu" name="ghiChu" rows="4" cols="50" maxlength="300" placeholder="Nhập lời nhắn hoặc khung giờ giao hàng mong muốn..."></textarea>
+                </p>
+              </fieldset>
+              <p>
+                <input type="checkbox" id="dong-y-demo" name="xacNhanDemo" value="dong-y" required>
+                <label for="dong-y-demo"><strong>Tôi hiểu đây chỉ là biểu mẫu thực hành HTML tĩnh, không phát sinh giao dịch hay lưu trữ đơn hàng thật *</strong></label>
+              </p>
+              <p>
+                <button type="submit">✉ Gửi yêu cầu đặt hàng mẫu</button> &nbsp;
+                <button type="reset">↺ Nhập lại biểu mẫu</button>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </main>
+  <br>
+  <footer>
+    <table bgcolor="#1F3A52" border="0" cellpadding="16" cellspacing="0" width="100%">
+      <tr>
+        <td align="center">
+          <font color="#FFFFFF"><b>◆ AURA BAGS &amp; PACKS</b> · 10 sản phẩm Balo &amp; Túi xách demo · © 2026</font><br>
+          <font color="#FDE68A" size="2">Chính sách minh họa: Đổi trả 7 ngày · Giao hàng nội thành · Dữ liệu và giá bán chỉ phục vụ thực hành môn Thiết Kế Web.</font><br>
+          <a href="index.html"><font color="#FFFFFF">↥ Quay lại trang chủ</font></a>
+        </td>
+      </tr>
+    </table>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240">
+  <rect width="360" height="240" rx="16" fill="#ECFCCB"/>
+  <rect x="12" y="12" width="336" height="216" rx="12" fill="#FFFFFF" stroke="#3F6212" stroke-width="2"/>
+  <path d="M150 55 C150 35, 210 35, 210 55" fill="none" stroke="#3F6212" stroke-width="6" stroke-linecap="round"/>
+  <rect x="115" y="55" width="130" height="115" rx="18" fill="#3F6212"/>
+  <rect x="132" y="105" width="96" height="50" rx="8" fill="#ECFCCB"/>
+  <line x1="145" y1="122" x2="215" y2="122" stroke="#3F6212" stroke-width="3"/>
+  <circle cx="180" cy="82" r="8" fill="#FBBF24"/>
+  <text x="180" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3F6212" text-anchor="middle">BG03 · Balo Đa Năng Campus Olive</text>
+  <text x="180" y="214" font-family="Arial, sans-serif" font-size="12" fill="#475569" text-anchor="middle">Màu: Xanh Olive | Giá: 550.000 đ</text>
+</svg>
