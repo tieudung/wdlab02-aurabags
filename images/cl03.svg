@@ -1,11 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="260" viewBox="0 0 360 260">
   <rect x="4" y="4" width="352" height="252" rx="16" fill="#FFEDD5" stroke="#9A3412" stroke-width="3"/>
   <rect x="14" y="14" width="332" height="232" rx="12" fill="#FFFFFF" stroke="#9A3412" stroke-width="1"/>
-  <path d="M180 42 C180 32, 194 32, 190 42 C188 47, 180 49, 180 54 L135 78 L225 78 Z" fill="none" stroke="#9A3412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M135 78 L112 108 L130 120 L142 98 L142 172 L218 172 L218 98 L230 120 L248 108 L225 78 L196 78 L180 96 L164 78 Z" fill="#9A3412"/>
-  <line x1="142" y1="130" x2="218" y2="130" stroke="#FDE68A" stroke-width="3"/>
-  <circle cx="180" cy="112" r="3.5" fill="#FDE68A"/>
-  <circle cx="180" cy="146" r="3.5" fill="#FDE68A"/>
+  <path d="M180 36 C180 26, 194 26, 190 36 C188 41, 180 43, 180 48 L140 68 L220 68 Z" fill="none" stroke="#9A3412" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M142 68 L116 102 L132 112 L144 92 L136 172 L224 172 L216 92 L228 112 L244 102 L218 68 L196 68 L180 94 L164 68 Z" fill="#9A3412"/>
+  <rect x="140" y="120" width="80" height="8" fill="#FDE68A"/>
+  <rect x="174" y="118" width="12" height="12" fill="none" stroke="#9A3412" stroke-width="2"/>
+  <circle cx="170" cy="102" r="3" fill="#FDE68A"/>
+  <circle cx="190" cy="102" r="3" fill="#FDE68A"/>
+  <circle cx="170" cy="142" r="3" fill="#FDE68A"/>
+  <circle cx="190" cy="142" r="3" fill="#FDE68A"/>
   <text x="180" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#9A3412">CL03 · Áo Trench Coat Dáng Lửng Autumn</text>
   <text x="180" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">Màu: Nâu Camel | Giá: 1.090.000 đ</text>
 </svg>

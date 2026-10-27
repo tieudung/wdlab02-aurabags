@@ -42,14 +42,14 @@
       </table>
 
       <form action="xac-nhan.html" method="get">
-        <table bgcolor="#FFFFFF" border="1" bordercolor="#94A3B8" cellpadding="16" cellspacing="0" width="100%">
+        <table bgcolor="#FFFFFF" border="1" cellpadding="16" cellspacing="0" width="100%">
           <tr>
             <td>
               <fieldset>
                 <legend><strong>1. Thông tin người đặt hàng</strong></legend>
                 <p>
                   <label for="ho-ten">Họ và tên khách hàng *</label><br>
-                  <input type="text" id="ho-ten" name="hoTen" placeholder="Ví dụ: Huỳnh Tiểu Dung" minlength="2" maxlength="60" required>
+                  <input type="text" id="ho-ten" name="hoTen" placeholder="Ví dụ: Nguyen Van A" minlength="2" maxlength="60" required>
                 </p>
                 <p>
                   <label for="email">Địa chỉ Email nhận thông báo *</label><br>
@@ -64,7 +64,6 @@
               <fieldset>
                 <legend><strong>2. Lựa chọn sản phẩm &amp; Kích cỡ (Size)</strong></legend>
                 <p>
-                  <span id="CL01"></span><span id="CL02"></span><span id="CL03"></span><span id="CL04"></span><span id="CL05"></span><span id="CL06"></span><span id="CL07"></span><span id="CL08"></span><span id="CL09"></span><span id="CL10"></span>
                   <label for="ma-san-pham">Chọn mẫu trang phục *</label><br>
                   <select id="ma-san-pham" name="maSanPham" required>
                     <option value="">-- Chọn mẫu trang phục --</option>
@@ -84,11 +83,18 @@
                   <label for="kich-co">Chọn kích cỡ (Size) *</label><br>
                   <select id="kich-co" name="sizeTrangPhuc" required>
                     <option value="">-- Chọn size trang phục --</option>
-                    <option value="S">Size S (43 - 49 kg)</option>
-                    <option value="M">Size M (50 - 55 kg)</option>
-                    <option value="L">Size L (56 - 62 kg)</option>
-                    <option value="XL">Size XL (63 - 68 kg)</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
                   </select>
+                </p>
+                <p>
+                  <small>
+                    Size của từng sản phẩm được liệt kê tại trang Chi tiết.
+                    Biểu mẫu HTML tĩnh không tự lọc size theo SKU đã chọn;
+                    vui lòng đối chiếu trước khi gửi dữ liệu demo.
+                  </small>
                 </p>
                 <p>
                   <label for="so-luong">Số lượng đặt (1 – 5 sản phẩm) *</label><br>
@@ -111,8 +117,8 @@
                   <label for="tui-vai-bao-quan">Kèm túi vải chống bụi bảo quản trang phục (Garment Bag)</label>
                 </p>
                 <p>
-                  <label for="ghi-chu">Ghi chú đơn hàng (Số đo chiều cao/cân nặng hoặc lời nhắn)</label><br>
-                  <textarea id="ghi-chu" name="ghiChu" rows="4" cols="50" maxlength="300" placeholder="Nhập số đo chiều cao, cân nặng để tư vấn size hoặc khung giờ nhận hàng..."></textarea>
+                  <label for="ghi-chu">Ghi chú đơn hàng</label><br>
+                  <textarea id="ghi-chu" name="ghiChu" rows="4" cols="50" maxlength="300" placeholder="Nhập lời nhắn hoặc khung giờ nhận hàng mong muốn..."></textarea>
                 </p>
               </fieldset>
               <p>
@@ -136,7 +142,7 @@
         <td align="center">
           <font color="#FFFFFF"><b>❀ NANCY STUDIO</b> · 10 sản phẩm Thời trang thiết kế demo · &copy; 2026</font><br>
           <font color="#FDE68A" size="2">Chính sách minh họa: Hỗ trợ đổi size 7 ngày · Giao hàng toàn quốc · Dữ liệu và giá bán chỉ phục vụ thực hành môn Thiết Kế Web.</font><br>
-          <font color="#E2E8F0" size="2"><i>Lưu ý bản quyền: Vì lý do tôn trọng bản quyền sản phẩm nên em không sử dụng ảnh mạng mà tự thiết kế bộ ảnh vector SVG minh họa, mong Thầy thông cảm và hiểu cho.</i></font><br>
+          <font color="#E2E8F0" size="2"><i>Lưu ý bản quyền: Vì lý do tôn trọng bản quyền sản phẩm nên em không sử dụng ảnh mạng mà tự thiết kế bộ ảnh vector SVG minh họa cho từng kiểu trang phục, mong Thầy thông cảm và hiểu cho.</i></font><br>
           <a href="index.html"><font color="#FFFFFF">↥ Quay lại trang chủ</font></a>
         </td>
       </tr>

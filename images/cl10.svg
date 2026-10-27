@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="260" viewBox="0 0 360 260">
   <rect x="4" y="4" width="352" height="252" rx="16" fill="#EDE9FE" stroke="#5B21B6" stroke-width="3"/>
   <rect x="14" y="14" width="332" height="232" rx="12" fill="#FFFFFF" stroke="#5B21B6" stroke-width="1"/>
-  <path d="M180 42 C180 32, 194 32, 190 42 C188 47, 180 49, 180 54 L135 78 L225 78 Z" fill="none" stroke="#5B21B6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M135 78 L112 108 L130 120 L142 98 L142 172 L218 172 L218 98 L230 120 L248 108 L225 78 L196 78 L180 96 L164 78 Z" fill="#5B21B6"/>
-  <line x1="142" y1="130" x2="218" y2="130" stroke="#FDE68A" stroke-width="3"/>
-  <circle cx="180" cy="112" r="3.5" fill="#FDE68A"/>
-  <circle cx="180" cy="146" r="3.5" fill="#FDE68A"/>
+  <path d="M180 36 C180 26, 194 26, 190 36 C188 41, 180 43, 180 48 L140 68 L220 68 Z" fill="none" stroke="#5B21B6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M148 68 L166 68 L180 92 L194 68 L212 68 L216 90 L212 120 L186 120 L180 112 L174 120 L148 120 L144 90 Z" fill="#5B21B6"/>
+  <circle cx="180" cy="98" r="2.5" fill="#FDE68A"/>
+  <circle cx="180" cy="108" r="2.5" fill="#FDE68A"/>
+  <path d="M146 126 L214 126 L224 174 L186 174 L180 146 L174 174 L136 174 Z" fill="#5B21B6"/>
+  <line x1="146" y1="134" x2="214" y2="134" stroke="#FDE68A" stroke-width="2.5"/>
   <text x="180" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#5B21B6">CL10 · Set Áo Gile &amp; Quần Short Thanh Lịch</text>
   <text x="180" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">Màu: Tím Lavender | Giá: 840.000 đ</text>
 </svg>
